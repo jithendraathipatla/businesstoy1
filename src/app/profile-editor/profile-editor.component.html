@@ -1,0 +1,19 @@
+
+<div class="container">
+
+<form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+  
+  <label>
+    UserName:
+    <input type="text" formControlName="UserName">
+  </label>
+
+  <label>
+    Password:
+    <input type="password" formControlName="Password">
+  </label>
+     <br>
+  <button type="submit">login</button>
+
+</form>
+</div>
